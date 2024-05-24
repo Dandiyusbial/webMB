@@ -173,7 +173,7 @@ section {
     width: 100%;
   }
   .navbar .nav a {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .navbar .nav a span {
@@ -182,8 +182,16 @@ section {
 
   .navbar .nav a i {
     display: block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .navbar .nav a:hover {
+    background: none;
+  }
+
+  .navbar .nav a:hover span {
+    color: coral;
   }
 }
 @media (max-width: 400px) {
